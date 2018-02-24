@@ -23,4 +23,3 @@ echo "POOL: ${DPOOL}, WALLET: ${DWAL}/${WORKER}/${EMAIL}, PSW: ${DPSW}, WORKER: 
     -di ${DI} \
     -gser ${GSER} \
     -dbg 0
-
