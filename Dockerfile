@@ -30,7 +30,7 @@ ENV GSER=1
 RUN apt-get update && apt-get install -y --allow-downgrades --allow-remove-essential --allow-change-held-packages --no-install-recommends apt-transport-https wget ca-certificates ocl-icd-opencl-dev curl libcurl3 && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Get claymore
-COPY claymore.v11.0.tgz /claymore.tar.gz
+COPY claymore.v11.4.tgz /claymore.tar.gz
 RUN mkdir /claymore
 RUN tar -xvzf claymore.tar.gz --directory /claymore
 RUN rm -f /claymore.tar.gz

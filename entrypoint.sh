@@ -8,7 +8,7 @@ fi
 
 echo "POOL: ${EPOOL}, WALLET: ${EWAL}, PSW: ${EPSW}, ESM: ${ESM}, ALLPOOLS: 0" > /claymore/epools.txt
 
-/claymore/Claymore\'s\ Dual\ Ethereum+Decred_Siacoin_Lbry_Pascal\ AMD+NVIDIA\ GPU\ Miner\ v11.0\ -\ LINUX/ethdcrminer64 \
+/claymore/Claymore\'s\ Dual\ Ethereum+Decred_Siacoin_Lbry_Pascal_Blake2s_Keccak\ AMD+NVIDIA\ GPU\ Miner\ v11.4\ -\ LINUX/ethdcrminer64 \
     -mport 0 \
     -mode 1  \
     -epool ${EPOOL} \
